@@ -1,0 +1,15 @@
+{
+    "TableName": "unbiased_coder_table",
+    "KeySchema": [
+      { "AttributeName": "name", "KeyType": "HASH" },
+      { "AttributeName": "surname", "KeyType": "RANGE" }
+    ],
+    "AttributeDefinitions": [
+      { "AttributeName": "name", "AttributeType": "S" },
+      { "AttributeName": "surname", "AttributeType": "S" }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 5,
+      "WriteCapacityUnits": 5
+    }
+}

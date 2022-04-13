@@ -1,0 +1,1 @@
+aws dynamodb delete-item --table-name unbiased_coder_table --key "{\"name\": { \"S\": \"unbiased\"}, \"surname\": {\"S\": \"coder\"}}" --endpoint-url http://localhost:8000
