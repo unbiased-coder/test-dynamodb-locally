@@ -1,2 +1,3 @@
 DynamoDBLocal.jar
 DynamoDBLocal_lib
+*.db
